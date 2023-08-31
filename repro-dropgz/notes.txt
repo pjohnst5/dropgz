@@ -1,0 +1,9 @@
+Background:
+- Vipul saw error, when replacing azure-vnet-telemetry.exe, normally with dropgz windows
+    - "Process does not have permission"
+- Paul j did "mv" and "Rename-Item" just fine using Powershell
+
+Goal:
+- Reproduce Vipul's issue, isolated as much as possible
+- Try to mimic, either "mv" command or "Rename-Item"
+- Also test multiple invocations of our dummy program, while renaming binary for dummy program
